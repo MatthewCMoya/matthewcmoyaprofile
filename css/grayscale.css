@@ -137,8 +137,8 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    color: white;
+    background: url(https://scontent-sea1-1.xx.fbcdn.net/hphotos-xpa1/t31.0-8/1025653_10201528372595391_1723198105_o.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -256,7 +256,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(https://scontent-sea1-1.xx.fbcdn.net/hphotos-xfa1/t31.0-8/328226_4583483189319_1038470326_o.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
