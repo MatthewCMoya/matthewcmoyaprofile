@@ -132,12 +132,24 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: white;
-    background: url(https://scontent-sea1-1.xx.fbcdn.net/hphotos-xpa1/t31.0-8/1025653_10201528372595391_1723198105_o.jpg) no-repeat bottom center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+
+}
+
+.intro::after{
+  content: "";
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background: url(https://scontent-sea1-1.xx.fbcdn.net/hphotos-xpa1/t31.0-8/1025653_10201528372595391_1723198105_o.jpg) no-repeat bottom center scroll;
+  background-color: red;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .intro .intro-body {
