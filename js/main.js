@@ -10,6 +10,12 @@ MATTMOYA = window.MATTMOYA || {};
  *
  *
 ****************************************************************************************************/
+$(document).ready(function() {
+    $('#green').fadeOut(1000);
+});
+
+
+
 MATTMOYA.nav= function(options){
 
 	// add class after scrolling
